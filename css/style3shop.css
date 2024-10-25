@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {box-sizing: border-box;}
+
+html {
+background-color: #AB8267;
+margin: 0;
+padding: 0;
+}
+body{
+    display: flex;
+    margin: 0px auto;
+    flex-direction: column;
+    width: 100%;
+}
+/* шапка */
+
+header{
+    margin: 0px auto;
+    display: flex;
+    background-color:#F6F8F2;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.header-container {
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-evenly;
+}
+.ponas>p{
+    text-align: center;
+    font-size: 40px;
+    font-family: Raleway;
+    padding-right: 450px;
+    text-decoration: none;
+    color: #000;
+}
+.ptovus>p{
+    text-align: center;
+    font-size: 40px;
+    font-family:Raleway;
+    padding-left: 270px;
+    text-decoration: none;
+    color: #000;
+}
+.logo{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+}
+#logo{
+    display:block;
+    max-width: 250px;
+    margin: 0px auto;
+    justify-content: center;
+}
+#menu {
+color: #000;
+font-family: Raleway;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* пошло тело */
+
+.container {
+    width: 63%; /* Ширина контейнера, можно настроить по вашему усмотрению */
+    margin: 0 auto; /* Центрирование контейнера на странице */
+    padding: 20px; /* Внутренний отступ контейнера */
+    box-sizing: border-box;
+    background-color: #AB8267;
+}
+
+.round_sh {
+    width: 507px;
+    height: 42px;
+    margin-left: 325px;
+}
+
+.zagolov {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    width: 455px;
+    height: 141px;
+    display:block;
+    max-width: 600px;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+.katalog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tovar {
+    margin: 15px 25px;
+}
+.tovar>img {
+    width: 269px;
+  height: 294px;
+  border-radius: 50px;
+  }
+  p {
+font-family: Raleway;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+color: #ffffff;
+text-align: center;
+  }
+ 
+/* подвал пошёл */
+
+.footer {
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    background: #402613;
+}
+
+.logo_foot {
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    padding-top: 17px;
+}
+
+.text_foot {
+color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.ssilk>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.vk {
+    width: 50px;
+    height: 25px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+}
